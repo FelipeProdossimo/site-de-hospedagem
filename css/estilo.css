@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: georgia;
+    font-family: arial;
     color: white;
 }
 
@@ -10,14 +10,26 @@ body{
     text-align: center;
 }
 
+.logo{
+    left: 50px;
+    position: absolute;
+    
+}
+
+.navegacao{
+    text-align: right;
+    margin-bottom: 100px;
+}
+
 .conteudo-principal{
     height: 100vh;
     background: rgba(0, 0, 0, 0.5);
-    padding-top: 10%;
+    padding-top: 20px;
 }
 
 .titulo{
     font-size: 70px;
+    margin-bottom: 50px;
 }
 
 a{
