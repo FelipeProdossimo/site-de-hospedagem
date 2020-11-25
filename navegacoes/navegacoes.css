@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    font-family: arial;
+    color: white;
+}
+
+body{
+    background: url(../images/cor\ pastel\ para\ o\ site.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.logo{
+    left: 50px;
+    position: absolute;
+    
+}
+
+.navegacao{
+    text-align: right;
+    margin-bottom: 100px;
+}
+
+.conteudo-principal{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+}
+
+.titulo{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+
+a:hover{
+    color: black;
+    background: white;
+}
